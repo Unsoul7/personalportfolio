@@ -43,6 +43,7 @@
     text-decoration: none;
     padding: 20px 30px;
     border-radius: 40px;
+    font-weight: 500;
 }
 
 #action-btns a:first-child{
@@ -53,4 +54,32 @@
 #action-btns a:last-child{
     background: #ffee59;
 
+}
+
+#profile-about-me{
+    width: 100%;
+}
+
+#aboutme-line{
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+}
+
+#aboutme-line p{
+    font-size: 40px !important;
+    padding-right:10px;
+    font-weight: bold;
+}
+
+#aboutme-line div{
+    width: 72%;
+    height: 1px;
+    background: white;
+}
+
+#profile-about-me p{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 25px 0;
 }
