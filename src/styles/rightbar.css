@@ -1,0 +1,56 @@
+
+.right-panel{
+    width: 70%;
+    background: #0e0d14;
+    color: white;
+    padding: 40px 20px;
+}
+
+#profile-full-name p{
+    font-size: 60px;
+}
+
+
+#profile-full-name p span{
+    font-weight: bold;
+    padding: 5px 0;
+    display: block;
+}
+
+#profile-professional-role{
+    font-size: 25px;
+    padding: 30px 0;
+    color: #dd50a7;
+}
+
+#profile-user-tagline P{
+    font-size: 20px;
+    width: 40%;
+    line-height: 35px;
+}
+
+#action-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    width: 35%;
+}
+
+#action-btns a{
+    color: black;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 40px;
+}
+
+#action-btns a:first-child{
+    background: #00f583;
+
+}
+
+#action-btns a:last-child{
+    background: #ffee59;
+
+}
