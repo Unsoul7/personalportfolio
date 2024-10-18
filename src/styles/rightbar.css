@@ -1,9 +1,13 @@
 
 .right-panel{
     width: 70%;
+    /* min-height: 100vh; */
+    height: 100vh;
     background: #0e0d14;
     color: white;
     padding: 40px 20px;
+    position: sticky;
+    overflow-y: scroll;
 }
 
 #profile-full-name p{
@@ -18,7 +22,7 @@
 }
 
 #profile-professional-role{
-    font-size: 25px;
+    font-size: 20px;
     padding: 30px 0;
     color: #dd50a7;
 }

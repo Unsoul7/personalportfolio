@@ -4,8 +4,13 @@ import maillogo from '../assets/mail.png'
 import githublogo from '../assets/github.png'
 import instagramlogo from '../assets/instagram.png'
 import downloadlogo from '../assets/download.png'
-
-
+import home from '../assets/home.png'
+import about from '../assets/profile.png'
+import resume from '../assets/resume.png'
+import services from '../assets/services.png'
+import portfolio from '../assets/portfolio.png'
+import blog from '../assets/blog.png'
+import contact from '../assets/contact.png'
 
 export const LeftBar = () => {
 
@@ -42,7 +47,7 @@ export const LeftBar = () => {
             </div>
 
             <div className="profile-options-btns">
-                <div><a href="#">Home</a></div>
+                <div> <img src="../assets/home.png" alt="" /> <a href="#">Home</a></div>
                 <div><a href="#">About</a></div>
                 <div><a href="#">Resume</a></div>
                 <div><a href="#">Services</a></div>
@@ -51,10 +56,12 @@ export const LeftBar = () => {
                 <div><a href="#">Contact</a></div>
             </div>
 
-            <div id="download-cv-btn">
+            
+
+            {/* <div id="download-cv-btn">
                 <img src={downloadlogo} alt="" />
                 <a href="">Download CV</a>
-            </div>
+            </div> */}
         </div>
     )
 }
