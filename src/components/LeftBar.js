@@ -47,13 +47,13 @@ export const LeftBar = () => {
             </div>
 
             <div className="profile-options-btns">
-                <div> <img src="../assets/home.png" alt="" /> <a href="#">Home</a></div>
-                <div><a href="#">About</a></div>
-                <div><a href="#">Resume</a></div>
-                <div><a href="#">Services</a></div>
-                <div><a href="#">Portfolio</a></div>
-                <div><a href="#">Blog</a></div>
-                <div><a href="#">Contact</a></div>
+                <div> <img src={home} alt="" /> <a href="#">Home</a></div>
+                <div><img src={about} alt="" /><a href="#">About</a></div>
+                <div><img src={resume} alt="" /><a href="#">Resume</a></div>
+                <div><img src={services} alt="" /><a href="#">Services</a></div>
+                <div><img src={portfolio} alt="" /><a href="#">Portfolio</a></div>
+                <div><img src={blog} alt="" /><a href="#">Blog</a></div>
+                <div><img src={contact} alt="" /><a href="#">Contact</a></div>
             </div>
 
             

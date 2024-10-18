@@ -1,5 +1,4 @@
-
-.right-panel{
+.right-panel {
     width: 70%;
     /* min-height: 100vh; */
     height: 100vh;
@@ -10,30 +9,30 @@
     overflow-y: scroll;
 }
 
-#profile-full-name p{
+#profile-full-name p {
     font-size: 60px;
 }
 
 
-#profile-full-name p span{
+#profile-full-name p span {
     font-weight: bold;
     padding: 5px 0;
     display: block;
 }
 
-#profile-professional-role{
+#profile-professional-role {
     font-size: 20px;
     padding: 30px 0;
     color: #dd50a7;
 }
 
-#profile-user-tagline P{
+#profile-user-tagline P {
     font-size: 20px;
     width: 40%;
     line-height: 35px;
 }
 
-#action-btns{
+#action-btns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,7 +41,7 @@
     width: 35%;
 }
 
-#action-btns a{
+#action-btns a {
     color: black;
     text-decoration: none;
     padding: 20px 30px;
@@ -50,46 +49,222 @@
     font-weight: 500;
 }
 
-#action-btns a:first-child{
+#action-btns a:first-child {
     background: #00f583;
 
 }
 
-#action-btns a:last-child{
+#action-btns a:last-child {
     background: #ffee59;
 
 }
 
-#profile-about-me{
+#profile-about-me {
     width: 100%;
 }
 
-#aboutme-line{
+#aboutme-line {
     display: flex;
     width: 100%;
     align-items: baseline;
 }
 
-#aboutme-line p{
+#aboutme-line p {
     font-size: 40px !important;
-    padding-right:10px;
+    padding-right: 10px;
     font-weight: bold;
 }
 
-#aboutme-line div{
+#aboutme-line div {
     width: 72%;
     height: 1px;
     background: white;
 }
 
-#profile-about-me p{
+#profile-about-me p {
     font-size: 20px;
     line-height: 30px;
     padding: 25px 0;
 }
 
-table td{
-    padding-right:50px;
-    padding-bottom:20px;
+table td {
+    padding-right: 50px;
+    padding-bottom: 20px;
     font-size: 20px;
+}
+
+.edu-exp {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.edu-exp-container {
+    width: 50%;
+    padding-right: 2%;
+    display: flex;
+    margin: 0 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.exp-edu-inner-container {
+    display: flex;
+    padding: 20px 0;
+}
+
+.edu-exp-detail{
+    padding: 0 20px;
+}
+
+
+.edu-exp-detail h2{
+    padding: 5px 0;
+}
+
+.edu-exp-detail h3{
+    padding: 5px 0;
+}
+
+.edu-exp-detail p{
+    padding: 5px 0;
+}
+
+.edu-exp-badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-circle {
+    width: 22px;
+    height: 22px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper-circle div {
+    width: 10px;
+    height: 10px;
+    background: #dd50a7;
+    border-radius: 50%;
+}
+
+.badge-line {
+    width: 2px;
+    height: 100%;
+    background: white;
+}
+
+#coding-skills-line{
+    display: flex;
+    align-items: baseline;
+}
+
+.coding-skills #coding-skills-line p{
+    font-size: 40px;
+    font-weight: bold;
+    width: 45%;
+    padding: 0 5px;
+}
+
+.coding-skills #coding-skills-line div{
+    width: 100%;
+    height:1px;
+    background: white;
+}
+
+#skills{
+    display: flex;
+    /* justify-content: space-; */
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#skills div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 50px;
+    height: 80px;
+    font-weight: 100;
+}
+
+#skills div:first-child{
+    background: rgba(73, 255, 179, 0.37);
+    border:2px solid rgb(0, 255, 149);
+}
+
+#skills div:first-child h3{
+    color: rgb(0, 255, 149);
+}
+
+
+#skills div:nth-child(2){
+    background: rgba(47, 113, 255, 0.349);
+    border:2px solid rgb(60, 86, 204);
+}
+
+#skills div:nth-child(2) h3{
+    color: rgb(93, 93, 255);
+}
+
+
+#skills div:nth-child(3){
+    background: rgba(214, 50, 255, 0.349);
+    border:2px solid rgb(212, 0, 255);
+}
+
+#skills div:nth-child(3) h3{
+    color: rgb(212, 0, 255);
+}
+
+
+#skills div:nth-child(4){
+    background: rgba(255, 238, 81, 0.521);
+    border:2px solid rgb(255, 238, 0);
+}
+
+#skills div:nth-child(4) h3{
+    color: rgb(251, 255, 0);
+}
+
+
+#skills div:nth-child(5){
+    background: rgba(103, 61, 253, 0.521);
+    border:2px solid rgb(73, 22, 255);
+}
+
+#skills div:nth-child(5) h3{
+    color: rgb(108, 67, 255);
+}
+
+#portfolio-section{
+    width: 100%;
+}
+
+.pline{
+display: flex;
+align-items: baseline;
+}
+
+.pline p{
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.pline div{     
+    width: 100%;
+    height: 1px;
+    background: white;
 }

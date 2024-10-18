@@ -71,8 +71,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
+    padding: 0 10px;
     border-top: 1px solid rgb(150, 150, 150);
     border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.profile-options-btns img{
+    width: 10%;
+    margin: 0 10px;
 }
 
 .profile-options-btns div a{

@@ -72,7 +72,101 @@ export const RightBar = () => {
                 </tr>
             </table>
 
-            
+
+            <div className="edu-exp">
+                <div className="edu-exp-container">
+                    <div id="aboutme-line">
+                        <p>Education</p>
+                        <div></div>
+                    </div>
+
+                    <div className="exp-edu-inner-container">
+                        <div className="edu-exp-badges">
+                            <div className="upper-circle">
+                                <div></div>
+                            </div>
+                            <div className="badge-line">
+                            </div>
+                        </div>
+
+                        <div className="edu-exp-detail">
+
+                            <h2>Completed 10th</h2>
+                            <h3>Indraprastha Convent School</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa veniam impedit possimus, fugit explicabo ullam ratione deserunt laboriosam harum!</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+                <div className="edu-exp-container">
+                    <div id="aboutme-line">
+                        <p>Experience</p>
+                        <div></div>
+                    </div>
+                    <div className="exp-edu-inner-container">
+                        <div className="edu-exp-badges">
+                            <div className="upper-circle">
+                                <div></div>
+                            </div>
+                            <div className="badge-line">
+                            </div>
+                        </div>
+
+                        <div className="edu-exp-detail">
+
+                            <h2>Completed 10th</h2>
+                            <h3>Indraprastha Convent School</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa veniam impedit possimus, fugit explicabo ullam ratione deserunt laboriosam harum!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="coding-skills">
+                <div id="coding-skills-line">
+                    <p>Coding Skills.</p>
+                    <div></div>
+                </div>
+
+                <div id="skills">
+                    <div>
+                        <h2>94%</h2>
+                        <h3>HTML,CSS</h3>
+                    </div>
+                    <div>
+                        <h2>98%</h2>
+                        <h3>Photoshop</h3>
+                    </div>
+                    <div>
+                        <h2>88%</h2>
+                        <h3>Premiere Pro</h3>
+                    </div>
+                    <div>
+                        <h2>85%</h2>
+                        <h3>Python</h3>
+                    </div>
+                    <div>
+                        <h2>89%</h2>
+                        <h3>Filmora</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="portfolio-section">
+                <div className="pline">
+                    <p>Portfolio.</p>
+                    <div></div>
+                </div>
+
+                <div className="projects-section">
+                    
+                </div>
+
+            </div>
 
         </div>
     )
