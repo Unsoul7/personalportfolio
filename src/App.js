@@ -4,8 +4,10 @@ import { RightBar } from './components/RightBar';
 
 function App() {
   return (
-    // <LeftBar/>  
-    <RightBar/>
+    <main>
+        <LeftBar />
+        <RightBar />
+    </main>
   );
 }
 

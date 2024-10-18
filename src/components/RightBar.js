@@ -11,13 +11,12 @@ export const RightBar = () => {
 
         const updateTalent = () => {
             setProf(talents[index]);
-            index = (index + 1) % talents.length; // Reset index after reaching the end
-            setTimeout(updateTalent, 5000); // Call the function again after 5 seconds
+            index = (index + 1) % talents.length;
+            setTimeout(updateTalent, 5000);
         };
 
-        const timerId = setTimeout(updateTalent, 5000); // Start the loop
-
-        return () => clearTimeout(timerId); // Cleanup on unmount
+        const timerId = setTimeout(updateTalent, 5000);
+        return () => clearTimeout(timerId);
     }, []);
 
     return (
@@ -37,6 +36,7 @@ export const RightBar = () => {
             </div>
 
             <div id="profile-about-me">
+
                 <div id="aboutme-line">
                     <p>About Me.</p>
                     <div></div>
@@ -44,6 +44,35 @@ export const RightBar = () => {
 
                 <p>I’m a multi-skilled professional with expertise in web development and content creation. Proficient in HTML, CSS, JavaScript, Python, Node.js, Express, React, and MongoDB, I build scalable web applications. With Next.js and strong data structure knowledge, I handle both front-end and back-end development efficiently.</p>
             </div>
+
+            <table>
+                <tr>
+                    <td>Name</td><td>:</td><td>Aman Prajapati</td>
+                </tr>
+                <tr>
+                    <td>Nationality</td><td>:</td><td>Indian</td>
+                </tr>
+                <tr>
+                    <td>Phone</td><td>:</td><td>+91 99112 80143</td>
+                </tr>
+                <tr>
+                    <td>Email</td><td>:</td><td>amanforsure@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Experience</td><td>:</td><td>2+ Years</td>
+                </tr>
+                <tr>
+                    <td>Freelance</td><td>:</td><td>Available</td>
+                </tr>
+                <tr>
+                    <td>Instagram</td><td>:</td><td>amanherexd</td>
+                </tr>
+                <tr>
+                    <td>Language</td><td>:</td><td>English</td>
+                </tr>
+            </table>
+
+            
 
         </div>
     )
