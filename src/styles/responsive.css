@@ -1,0 +1,13 @@
+@media only screen and (max-width:1090px) {
+    .left-panel{
+        display: none;
+    }
+
+    .right-panel{
+        width: 90%;
+    }
+
+    /* #action-btns {
+        width: 40%;
+    } */
+}

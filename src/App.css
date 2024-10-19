@@ -36,10 +36,18 @@ main{
   position: relative;
   width: 100%;
   color: white;
-  /* height: 100vh; */
   background: black;
-  /* overflow-y:hidden ; */
+}
 
+#menu-btn{
+  position: fixed;
+  z-index: 999;
+  width: 50px;
+  right: 40px;
+  top: 30px;
+  background: rgba(255, 255, 255, 0.37);
+  padding: 10px;
+  border-radius: 50%;
 }
 
 @keyframes App-logo-spin {
