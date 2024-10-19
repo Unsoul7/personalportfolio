@@ -71,9 +71,10 @@
 }
 
 #aboutme-line p {
-    font-size: 4vmax !important;
+    font-size: 3.5vmax !important;
     padding-right: 10px;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 #aboutme-line div {
@@ -173,7 +174,7 @@ table td {
 }
 
 .coding-skills #coding-skills-line p {
-    font-size: 4vmax;
+    font-size: 3.5vmax;
     white-space: nowrap;
     font-weight: bold;
     /* width: 45%; */
@@ -265,7 +266,7 @@ table td {
 }
 
 .pline p {
-    font-size: 4vmax;
+    font-size: 3.5vmax;
 
     font-weight: bold;
     padding-right: 10px;

@@ -3,11 +3,10 @@ import { LeftBar } from './components/LeftBar';
 import { RightBar } from './components/RightBar';
 import './styles/responsive.css'
 import menu from './assets/menu.png'
-import { Sidebar } from './components/Sidebar';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [SideOpen, setSideOpen] = useState(false)
+  const [SideOpen, setSideOpen] = useState(true)
   
   const openSidebar = () => {
     if (SideOpen == false) {

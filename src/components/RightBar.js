@@ -28,11 +28,11 @@ export const RightBar = () => {
 
             <div id="profile-professional-role"><p>{Prof}</p></div>
 
-            <div id="profile-user-tagline"><p>We appreciate your trust greatly our clients choose us & our products because they know we are the best.</p></div>
+            <div id="profile-user-tagline"><p>Tech Enthusiast Who Loves to Read Books, Drawing and Learn New Technologies.</p></div>
 
             <div id="action-btns">
-                <a href="">View Work</a>
-                <a href="">Contact Me</a>
+                <a href="#portfolio-section">View Work</a>
+                <a href="mailto:amanforsure@gmail.com">Contact Me</a>
             </div>
 
             <div id="profile-about-me">
@@ -91,13 +91,28 @@ export const RightBar = () => {
 
                         <div className="edu-exp-detail">
 
-                            <h2>Completed 10th</h2>
+                            <h2>Completed Education</h2>
                             <h3>Indraprastha Convent School</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa veniam impedit possimus, fugit explicabo ullam ratione deserunt laboriosam harum!</p>
-                        </div>
+                            <p>I completed my schooling in the science stream and dedicated two years to preparing for the JEE Mains exam. During this time, I developed a strong passion for mathematics and chemistry, which fueled my motivation and deepened my understanding of these subjects.</p>
+                        </div>    
                     </div>
 
+                    <div className="exp-edu-inner-container">
+                        <div className="edu-exp-badges">
+                            <div className="upper-circle">
+                                <div></div>
+                            </div>
+                            <div className="badge-line">
+                            </div>
+                        </div>
 
+                        <div className="edu-exp-detail">
+
+                            <h2>Certification in Graphic Design</h2>
+                            <h3>CITE Computer Education</h3>
+                            <p>I completed a six-month certification course in graphic design, during which I gained proficiency in PageMaker, CorelDRAW, and Adobe Photoshop. This program equipped me with essential skills in design principles, enabling me to create engaging graphics and layouts effectively.</p>
+                        </div>
+                    </div>
 
                 </div>
 
@@ -118,9 +133,9 @@ export const RightBar = () => {
 
                         <div className="edu-exp-detail">
 
-                            <h2>Completed 10th</h2>
-                            <h3>Indraprastha Convent School</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa veniam impedit possimus, fugit explicabo ullam ratione deserunt laboriosam harum!</p>
+                            <h2>Bread Jam Productions</h2>
+                            <h3>Social Media Manager <span style={{color : '#dd50a7'}}>(Currently Working)</span></h3>
+                            <p>I currently work at Bread Jam Productions, a production house specializing in commercial ads for major brands. My role involves managing the company's social media pages to enhance our online presence and engage with our audience.</p>
                         </div>
                     </div>
                 </div>
