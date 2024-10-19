@@ -12,12 +12,20 @@ import portfolio from '../assets/portfolio.png'
 import blog from '../assets/blog.png'
 import contact from '../assets/contact.png'
 
-export const LeftBar = () => {
+export const LeftBar = (props) => {
 
     const talents = ['Web Dev','Video Editor','Social Media Manager','Fullstack Dev']
     const [Prof, setProf] = useState(talents[0])
+    const [sideshowclasses, setsideshowclasses] = useState('left-panel show')
 
     useEffect(() => {
+
+        if(props.sidebar == true){
+            setsideshowclasses('left-panel')
+        }else{
+            setsideshowclasses('left-panel hidden')
+        }
+
         let index = 0;
 
         const updateTalent = () => {
@@ -29,11 +37,14 @@ export const LeftBar = () => {
         const timerId = setTimeout(updateTalent, 5000); // Start the loop
 
         return () => clearTimeout(timerId); // Cleanup on unmount
-    }, []);
+        
+       
+
+    }, [props.sidebar, Prof]);
 
 
     return(
-        <div className="left-panel">
+        <div className={sideshowclasses}>
             <div id="profile-picture"></div>
             <div id="profile-name"><p><span style={{"fontWeight" : "bold"}}>Aman</span> Prajapati</p></div>
             <div id="profile-professional-role"><p>{Prof}</p></div>

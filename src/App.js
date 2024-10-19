@@ -3,13 +3,25 @@ import { LeftBar } from './components/LeftBar';
 import { RightBar } from './components/RightBar';
 import './styles/responsive.css'
 import menu from './assets/menu.png'
+import { Sidebar } from './components/Sidebar';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [SideOpen, setSideOpen] = useState(false)
+  
+  const openSidebar = () => {
+    if (SideOpen == false) {
+      setSideOpen(true)
+    } else {
+      setSideOpen(false)
+    }
+  }
+  
   return (
     <main>
-        <img id='menu-btn' src={menu} alt="" />
-        <LeftBar />
-        <RightBar />
+      <img onClick={() => {openSidebar()}} id='menu-btn' src={menu} alt="" />
+      <LeftBar sidebar={SideOpen}/>
+      <RightBar />
     </main>
   );
 }

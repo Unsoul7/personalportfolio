@@ -1,13 +1,114 @@
 @media only screen and (max-width:1090px) {
-    .left-panel{
-        display: none;
+    #menu-btn {
+        display: block;
     }
+
+    .left-panel {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        width: 35%;
+    }
+
+
+    #profile-full-name p {
+        font-size: 6vmax;
+    }
+
+
+    .hidden {
+        left: -80%;
+    }
+
+    .right-panel {
+        width: 90%;
+        overflow-x: hidden;
+    }
+
+    #profile-user-tagline P {
+        font-size: 20px;
+        width: 100%;
+        line-height: 35px;
+    }
+
+    #aboutme-line {
+        width: 100%;
+        align-items: baseline;
+        justify-content: space-evenly;
+    }
+
+    #aboutme-line p {
+        font-size: 8vmin !important;
+        padding-right: 10px;
+        font-weight: bold;
+        /* width: 70%; */
+        white-space: nowrap;
+    }
+
+}
+
+@media only screen and (max-width:990px) {
+
+    .left-panel{
+        width: 70%;
+    }
+
+    #profile-name{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #profile-name p{
+        text-align: center;
+    }
+
+    
+#profile-professional-role p{
+    text-align: center;
+}
+
 
     .right-panel{
-        width: 90%;
+        width: 45rem;       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    /* #action-btns {
-        width: 40%;
-    } */
+    #profile-full-name,#profile-user-tagline p{
+        text-align: center;
+    }
+
+    table td{
+        font-size: 2.7vmax;
+    }
+
+    .edu-exp{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 0 0;
+    }
+
+    .edu-exp-container{
+        width: 100%;
+        /* padding: 0 0; */
+        margin: 0;
+    }
+
+    .coding-skills{
+        width: 100%;
+    }
+
+    #skills{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
 }

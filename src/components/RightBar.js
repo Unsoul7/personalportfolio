@@ -163,7 +163,7 @@ export const RightBar = () => {
                 </div>
 
                 <div className="projects-section">
-                    
+
                 </div>
 
             </div>

@@ -10,7 +10,7 @@
 }
 
 #profile-full-name p {
-    font-size: 60px;
+    font-size: 4vmax;
 }
 
 
@@ -71,7 +71,7 @@
 }
 
 #aboutme-line p {
-    font-size: 40px !important;
+    font-size: 4vmax !important;
     padding-right: 10px;
     font-weight: bold;
 }
@@ -88,8 +88,13 @@
     padding: 25px 0;
 }
 
+table {
+    width: 100%;
+}
+
 table td {
-    padding-right: 50px;
+    white-space: wrap;
+    padding-right: 2vmax;
     padding-bottom: 20px;
     font-size: 20px;
 }
@@ -116,20 +121,20 @@ table td {
     padding: 20px 0;
 }
 
-.edu-exp-detail{
+.edu-exp-detail {
     padding: 0 20px;
 }
 
 
-.edu-exp-detail h2{
+.edu-exp-detail h2 {
     padding: 5px 0;
 }
 
-.edu-exp-detail h3{
+.edu-exp-detail h3 {
     padding: 5px 0;
 }
 
-.edu-exp-detail p{
+.edu-exp-detail p {
     padding: 5px 0;
 }
 
@@ -162,25 +167,26 @@ table td {
     background: white;
 }
 
-#coding-skills-line{
+#coding-skills-line {
     display: flex;
     align-items: baseline;
 }
 
-.coding-skills #coding-skills-line p{
-    font-size: 40px;
+.coding-skills #coding-skills-line p {
+    font-size: 4vmax;
+    white-space: nowrap;
     font-weight: bold;
-    width: 45%;
+    /* width: 45%; */
     padding: 0 5px;
 }
 
-.coding-skills #coding-skills-line div{
+.coding-skills #coding-skills-line div {
     width: 100%;
-    height:1px;
+    height: 1px;
     background: white;
 }
 
-#skills{
+#skills {
     display: flex;
     /* justify-content: space-; */
     flex-wrap: wrap;
@@ -188,7 +194,7 @@ table td {
     padding: 20px 0;
 }
 
-#skills div{
+#skills div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,71 +206,72 @@ table td {
     font-weight: 100;
 }
 
-#skills div:first-child{
+#skills div:first-child {
     background: rgba(73, 255, 179, 0.37);
-    border:2px solid rgb(0, 255, 149);
+    border: 2px solid rgb(0, 255, 149);
 }
 
-#skills div:first-child h3{
+#skills div:first-child h3 {
     color: rgb(0, 255, 149);
 }
 
 
-#skills div:nth-child(2){
+#skills div:nth-child(2) {
     background: rgba(47, 113, 255, 0.349);
-    border:2px solid rgb(60, 86, 204);
+    border: 2px solid rgb(60, 86, 204);
 }
 
-#skills div:nth-child(2) h3{
+#skills div:nth-child(2) h3 {
     color: rgb(93, 93, 255);
 }
 
 
-#skills div:nth-child(3){
+#skills div:nth-child(3) {
     background: rgba(214, 50, 255, 0.349);
-    border:2px solid rgb(212, 0, 255);
+    border: 2px solid rgb(212, 0, 255);
 }
 
-#skills div:nth-child(3) h3{
+#skills div:nth-child(3) h3 {
     color: rgb(212, 0, 255);
 }
 
 
-#skills div:nth-child(4){
+#skills div:nth-child(4) {
     background: rgba(255, 238, 81, 0.521);
-    border:2px solid rgb(255, 238, 0);
+    border: 2px solid rgb(255, 238, 0);
 }
 
-#skills div:nth-child(4) h3{
+#skills div:nth-child(4) h3 {
     color: rgb(251, 255, 0);
 }
 
 
-#skills div:nth-child(5){
+#skills div:nth-child(5) {
     background: rgba(103, 61, 253, 0.521);
-    border:2px solid rgb(73, 22, 255);
+    border: 2px solid rgb(73, 22, 255);
 }
 
-#skills div:nth-child(5) h3{
+#skills div:nth-child(5) h3 {
     color: rgb(108, 67, 255);
 }
 
-#portfolio-section{
+#portfolio-section {
     width: 100%;
 }
 
-.pline{
-display: flex;
-align-items: baseline;
+.pline {
+    display: flex;
+    align-items: baseline;
 }
 
-.pline p{
-    font-size: 40px;
+.pline p {
+    font-size: 4vmax;
+
     font-weight: bold;
     padding-right: 10px;
 }
 
-.pline div{     
+.pline div {
     width: 100%;
     height: 1px;
     background: white;

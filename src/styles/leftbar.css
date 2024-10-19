@@ -7,6 +7,7 @@
     flex-direction: column;
     align-items: center;
     overflow-y: scroll;
+    transition: all 1s ease-in;
 }
 
 #profile-name p {
