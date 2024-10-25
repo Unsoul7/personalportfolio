@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import '../styles/rightbar.css'
-
+import { Project } from "./Project";
+import project1 from "../assets/project1.jpeg"
+import project2 from "../assets/test.png"
 export const RightBar = () => {
 
     const talents = ['Web Dev', 'Video Editor', 'Social Media Manager', 'Fullstack Dev']
@@ -178,8 +180,8 @@ export const RightBar = () => {
                 </div>
 
                 <div className="projects-section">
-
-                </div>
+                    <Project name='Ecommerce App' link='https://blackfriday-lyart.vercel.app/' img={project1} />
+                    </div>
 
             </div>
 

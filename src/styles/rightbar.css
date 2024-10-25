@@ -260,6 +260,17 @@ table td {
     width: 100%;
 }
 
+.projects-section{
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    columns: 3 3rem;
+    /* align-items: center; */
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
 .pline {
     display: flex;
     align-items: baseline;
