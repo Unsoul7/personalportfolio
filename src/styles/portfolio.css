@@ -22,6 +22,7 @@
     position: absolute;
     z-index: 999;
     display: none;
+    text-align: center;
 }
 
 .project:hover h2{

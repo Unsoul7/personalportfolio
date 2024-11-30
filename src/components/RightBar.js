@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import '../styles/rightbar.css'
 import { Project } from "./Project";
 import project1 from "../assets/project1.jpeg"
-import project2 from "../assets/test.png"
+import vid1 from "../assets/podcastvid1.png"
+import pagebjp from "../assets/pageport.png"
 export const RightBar = () => {
 
     const talents = ['Web Dev', 'Video Editor', 'Social Media Manager', 'Fullstack Dev']
@@ -181,6 +182,8 @@ export const RightBar = () => {
 
                 <div className="projects-section">
                     <Project name='Ecommerce App' link='https://blackfriday-lyart.vercel.app/' img={project1} />
+                    <Project name='Podcast Video Shooting and Editing' link='https://drive.google.com/file/d/1OURUR1M-hlU4bikoOQeeZf4n74gC-Zcf/view?usp=sharing' img={vid1} />
+                    <Project name='Managing Social Page' link='https://www.instagram.com/breadjamproductions_/' img={pagebjp} />
                     </div>
 
             </div>
